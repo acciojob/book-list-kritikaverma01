@@ -1,1 +1,101 @@
 /*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px 4%;
+  color: #292d32;
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  margin: 20px 0 15px;
+}
+
+h1::first-letter {
+  color: #292d32;
+}
+
+/* Make "Book" blue */
+h1 {
+  color: #292d32;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 36px;
+  padding: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 9px 13px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 0;
+}
+
+#submit:hover {
+  background-color: #0b5ed7;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 14px;
+}
+
+.table td {
+  padding: 9px 8px;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 14px;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.delete {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 9px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete:hover {
+  background-color: #bb2d3b;
+}
